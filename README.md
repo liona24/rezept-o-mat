@@ -1,12 +1,11 @@
 # rezept-o-mat
 
-> Cooking for the decision weak
+## Project Setup
 
-## Build Setup
+```bash
 
-``` bash
 # Fire up a environment if desired
-$ docker run -it -v $(pwd):/var/rezept-o-mat -p 3000:3000 --user=node node /bin/bash
+$ docker run -it -v $(pwd):/var/rezept-o-mat -p 8080:8080 --user=node node /bin/bash
 
 # install dependencies
 $ yarn install
@@ -20,8 +19,10 @@ $ yarn start
 
 # generate static project
 $ yarn generate
+
 ```
 
-By default, the recipes are fetched from a mock JSON server. The URL can be configured in [assets/api.js](assets/api.js)
+By default, the recipes are fetched from a mock JSON server. The URL can be configured in [src/api.js](src/api.js)
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
