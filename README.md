@@ -24,5 +24,7 @@ $ yarn generate
 
 By default, the recipes are fetched from a mock JSON server. The URL can be configured in [src/api.js](src/api.js)
 
+The demo version is hosted on github pages, [here](https://liona24.github.io/rezept-o-mat/)
+
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
