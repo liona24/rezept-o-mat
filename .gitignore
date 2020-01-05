@@ -88,3 +88,8 @@ sw.*
 
 # Vim swap files
 *.swp
+
+venv/
+*.pyc
+__pycache__
+
